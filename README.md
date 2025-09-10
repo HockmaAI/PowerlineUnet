@@ -34,6 +34,8 @@ part of my honors thesis.
 ```
 
 ## Usage Instructions:
+- This project uses the model hockmaAI/PowerlineUNet 
+ (https://huggingface.co/hockmaAI/PowerlineUNet) hosted on Hugging Face.
 - run inference using this command:
 ```sh
     python src/inference.py --input_dir data/inference/in --output_dir data/inference/out
