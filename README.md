@@ -53,20 +53,14 @@ part of my honors thesis.
 - On request I can supply the training images dataset, a collection of over 2000 images
 
 ## Contact/Author:
-<<<<<<< HEAD
 - my github handle is hockma1985@gmail.com
-=======
-- my github handle is 
->>>>>>> 73ba404 (excluding model files)
 
 Want to contribute? Great!
 
 Let me know how you would like to improve the product
 
-<<<<<<< HEAD
 =======
 hockma1985@gmail.com
->>>>>>> 73ba404 (excluding model files)
 
 ## License
 
