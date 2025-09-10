@@ -59,9 +59,6 @@ Want to contribute? Great!
 
 Let me know how you would like to improve the product
 
-=======
-hockma1985@gmail.com
-
 ## License
 
 MIT
