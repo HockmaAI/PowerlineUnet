@@ -1,0 +1,78 @@
+<<<<<<< HEAD
+# Powerline Unet
+A U-Net model for Power Line image segmentation, generating precise masks for computer vision using drone-based inspections. Built for AI and CV enthusiasts.
+=======
+# PowerlineUnet
+A U-Net model for Power Line image segmentation, generating precise masks for computer vision tasks like drone-based utility inspection. Built for AI and CV enthusiasts.
+>>>>>>> 73ba404 (excluding model files)
+
+## Features
+
+- A partitioning approach to segmentation, to detect all powerline conductors
+- Run with bash or command line instructions
+- Fine trained model is supplied (hosted on huggingface)
+- Dependencies are specified
+
+This project addresses the first step in powerline inspections
+
+> Output masks define the power line pixels 
+> as the first step in visible fault identification 
+> of power line images from drone images. 
+> eventually all inspections will be undertaken
+> by drones. Automation of images collected to 
+> identify weakened conductors caused by 
+> broken strand
+> corrosion
+> untwisting (bird-caging)
+
+
+This project is the result of several years of research and study
+part of my honors thesis. 
+
+## Installation Instructions:
+
+- Python 3.10, CUDA 11.7, NVIDIA GPU
+- CUDA/cuDNN setup NVIDIA CUDA 11.7 and cuDNN 8.9
+- Use this command to install depdendencies:
+```sh
+    pip install -r requirements.txt
+```
+
+## Usage Instructions:
+- run inference using this command:
+```sh
+    python src/inference.py --input_dir data/inference/in --output_dir data/inference/out
+```
+- optional commands (model_path; input_dir; output_dir)
+- output directory is in data/inference/out
+
+## Dependencies
+- Reference requirements.txt and note any specific versions (eg. numpy<2.0 for compatability)
+
+## Model Details
+- A 4-layer UNet model with attention gates
+- Trained on 32,000,000 parameters
+
+## Sample Data
+- In the data directory I have included sample data for inference, simply place these images in the 'in directory'
+- On request I can supply the training images dataset, a collection of over 2000 images
+
+## Contact/Author:
+<<<<<<< HEAD
+- my github handle is hockma1985@gmail.com
+=======
+- my github handle is 
+>>>>>>> 73ba404 (excluding model files)
+
+Want to contribute? Great!
+
+Let me know how you would like to improve the product
+
+<<<<<<< HEAD
+=======
+hockma1985@gmail.com
+>>>>>>> 73ba404 (excluding model files)
+
+## License
+
+MIT

@@ -1,0 +1,44 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Data and models (AI/CV)
+*.h5
+<<<<<<< HEAD
+
+*.pt
+# Ignore everything in the data/inference directory and its subdirectories
+
+# Explicitly include all files in the data/examples directory and its subdirectories
+!data/examples/*
+
+models/
+=======
+*.pth
+*.pt
+# Ignore everything in the data/inference directory and its subdirectories
+
+
+# Explicitly include all files in the data/examples directory and its subdirectories
+!data/examples/*
+
+>>>>>>> 73ba404 (excluding model files)
+
+# Logs and temp files
+*.log
+*.tmp
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store

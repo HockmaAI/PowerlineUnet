@@ -1,0 +1,10 @@
+albumentations==2.0.8
+matplotlib==3.10.6
+numpy==1.26.4
+opencv-python-headless==4.12.0.88
+pillow==11.3.0
+scipy==1.15.3
+torch==2.0.1+cu117
+torchaudio==2.0.2+cu117
+torchvision==0.15.2+cu117
+

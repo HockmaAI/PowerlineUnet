@@ -1,0 +1,7 @@
+data/examples/sample_images/*.jpg filter=lfs diff=lfs merge=lfs -text
+data/examples/sample_outputs/*.png filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+models/*.pth filter=lfs diff=lfs merge=lfs -text
+=======
+models/best_finetuned_model.pth !text !filter !merge !diff
+>>>>>>> 73ba404 (excluding model files)
