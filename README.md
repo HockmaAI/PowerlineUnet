@@ -66,11 +66,6 @@ Contributions are welcome!
 If you have ideas for improving the model, adding features, or enhancing the documentation, 
 please feel free to open an issue or submit a pull request.
 
-## License:
-
-This project is licensed under the MIT License.
-
-
 
 ## Third-Party Licenses and Attributions
 
@@ -90,3 +85,10 @@ This project uses and adapts code and data from several third-party sources. We 
 - **Description:** The CLAHE algorithm was used to balance high-contrast images.
 - **Source:** [https://github.com/anntzer/clahe](https://github.com/anntzer/clahe)
 - **License:** Zlib License. A copy of the license is included in this repository.
+
+
+## License:
+
+This project is licensed under the MIT License.
+
+
