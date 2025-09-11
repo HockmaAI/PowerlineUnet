@@ -53,17 +53,16 @@ part of my honors thesis.
 - Trained on 32,000,000 parameters
 
 ## Sample Data
-- In the data directory I have included sample data for inference, simply place these images in the 'in directory'
-- On request I can supply the training images dataset, a collection of over 2000 images
+To get you started, the data/inference/in directory includes sample images. Simply place your own images in this directory to run the model.
+For academic or research purposes, the full training dataset of over 2,000 images is available upon request.
 
-## Contact/Author:
-- my github handle is hockma1985@gmail.com
+## Author:
+- GitHub: hockmaAI
+- Email: hockma1985@gmail.com
 
 Want to contribute? Great!
-
 Let me know how you would like to improve the product
 
 ## License:
 
-
-MIT
+This project is licensed under the MIT License.
