@@ -53,15 +53,18 @@ part of my honors thesis.
 - Trained on 32,000,000 parameters
 
 ## Sample Data
-To get you started, the data/inference/in directory includes sample images. Simply place your own images in this directory to run the model.
-For academic or research purposes, the full training dataset of over 2,000 images is available upon request.
+To get you started, the data/inference/in directory includes sample images. 
+Simply place your own images in this directory to run the model.
+For academic or research purposes, the full training dataset of 
+over 2,000 images is available upon request.
 
 ## Author:
 - GitHub: hockmaAI
 - Email: hockma1985@gmail.com
 
-Want to contribute? Great!
-Let me know how you would like to improve the product
+Contributions are welcome! 
+If you have ideas for improving the model, adding features, or enhancing the documentation, 
+please feel free to open an issue or submit a pull request.
 
 ## License:
 
