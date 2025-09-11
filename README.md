@@ -3,9 +3,10 @@ A U-Net model for Power Line image segmentation, generating precise masks for co
 
 ## Features
 
-- A partitioning approach to segmentation, to detect all powerline conductors
+- A partitioning approach to segmentation, to detect all fine powerline conductors
 - Run with bash or command line instructions
 - Fine trained model is supplied (hosted on huggingface)
+- The output can be used to automate visible fault detections
 - Dependencies are specified
 
 This project addresses a critical automation step in powerline inspections
