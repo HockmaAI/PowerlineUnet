@@ -1,0 +1,1 @@
+https://huggingface.co/hockmaAI/PowerlineUNet/resolve/main/best_finetuned_model.pth
