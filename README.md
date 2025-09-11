@@ -1,6 +1,8 @@
 # Powerline Unet
 A U-Net model for Power Line image segmentation, generating precise masks for computer vision using drone-based inspections. Built for AI and CV enthusiasts.
 
+<img width="960" height="1496" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
+
 ## Features
 
 - A partitioning approach to segmentation, to detect all powerline conductors
@@ -61,6 +63,7 @@ Want to contribute? Great!
 
 Let me know how you would like to improve the product
 
-## License
+## License:
+
 
 MIT
