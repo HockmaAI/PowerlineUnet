@@ -1,8 +1,6 @@
 # Powerline Unet <img width="696" height="62" alt="powerline3" src="https://github.com/user-attachments/assets/b1d9032a-c58b-45c8-a6b1-9646ced3e920" />
 A U-Net model for Power Line image segmentation, generating precise masks for computer vision using drone-based inspections. Built for AI and CV enthusiasts.
 
-<img width="800" height="1000" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
-
 ## Features
 
 - A partitioning approach to segmentation, to detect all powerline conductors
@@ -22,9 +20,10 @@ This project addresses the first step in powerline inspections
 > corrosion
 > untwisting (bird-caging).
 
-
 This project is the result of several years of research and study
 part of my honors thesis. 
+
+<img width="800" height="1000" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
 
 ## Installation Instructions:
 
