@@ -1,4 +1,4 @@
-# Powerline Unet <img width="696" height="62" alt="powerline2" src="https://github.com/user-attachments/assets/f71df73d-9cd1-4915-b073-5351eea00ad4" />
+# Powerline Unet <img width="696" height="62" alt="powerline3" src="https://github.com/user-attachments/assets/b1d9032a-c58b-45c8-a6b1-9646ced3e920" />
 A U-Net model for Power Line image segmentation, generating precise masks for computer vision using drone-based inspections. Built for AI and CV enthusiasts.
 
 <img width="800" height="1000" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
