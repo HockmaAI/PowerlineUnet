@@ -39,9 +39,9 @@ part of my honors thesis.
  (https://huggingface.co/hockmaAI/PowerlineUNet) hosted on Hugging Face.
 - run inference using this command:
 ```sh
-    python src/inference.py --input_dir data/inference/in --output_dir data/inference/out
+   python src/inference.py --input_path data/inference/in/1.jpg --output_path data/inference/out/1_mask.png
 ```
-- optional commands (model_path; input_dir; output_dir)
+- optional commands (model_path; input_path; output_path)
 - output directory is in data/inference/out
 
 ## Dependencies
