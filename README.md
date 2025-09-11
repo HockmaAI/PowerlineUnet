@@ -4,6 +4,7 @@ A U-Net model for Power Line image segmentation, generating precise masks for co
 ## Features
 
 - A partitioning approach to segmentation, to detect all fine powerline conductors
+- A custom loss function, a hybrid between two seperate loss functions (BCE and Dice loss)
 - Run with bash or command line instructions
 - Fine trained model is supplied (hosted on huggingface)
 - The output can be used to automate visible fault detections
@@ -51,6 +52,12 @@ part of my honors thesis.
 ## Model Details
 - A 4-layer UNet model with attention gates
 - Trained on 32,000,000 parameters
+
+## Custom Loss Function
+- hybrid function between Binary Cross-Entropy and custom Dice Loss
+- Designed to address the significant class imbalance (power line pixels are a low %)
+- The model is attentive to foreground pixels.
+- BCE contributes 70% to the loss value, while Dice loss contributes 30%.
 
 ## Sample Data
 To get you started, the data/inference/in directory includes sample images. 
