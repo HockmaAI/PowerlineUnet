@@ -69,3 +69,24 @@ please feel free to open an issue or submit a pull request.
 ## License:
 
 This project is licensed under the MIT License.
+
+
+
+## Third-Party Licenses and Attributions
+
+This project uses and adapts code and data from several third-party sources. We are grateful for their contributions to the open-source community.
+
+### Mendeley Dataset
+- **Description:** Part of the training data was sourced from the Mendeley dataset.
+- **Source:** [https://data.mendeley.com/datasets/n6wrv4ry6v/8](https://data.mendeley.com/datasets/n6wrv4ry6v/8)
+- **License:** MIT License. A copy of the license is included in this repository.
+
+### Focal Phi Loss
+- **Description:** This model variant includes the focal phi loss, a custom loss function.
+- **Source:** [https://github.com/rubeea/focal_phi_loss_mmsegmentation](https://github.com/rubeea/focal_phi_loss_mmsegmentation)
+- **License:** Apache 2.0 License. A copy of the license is included in this repository.
+
+### CLAHE Algorithm
+- **Description:** The CLAHE algorithm was used to balance high-contrast images.
+- **Source:** [https://github.com/anntzer/clahe](https://github.com/anntzer/clahe)
+- **License:** Zlib License. A copy of the license is included in this repository.
