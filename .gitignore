@@ -13,16 +13,13 @@ venv/
 
 # Data and models (AI/CV)
 *.h5
-<<<<<<< HEAD
-
+*.pth
 *.pt
 # Ignore everything in the data/inference directory and its subdirectories
 
 # Explicitly include all files in the data/examples directory and its subdirectories
 !data/examples/*
 
-models/
-=======
 *.pth
 *.pt
 # Ignore everything in the data/inference directory and its subdirectories
@@ -30,8 +27,6 @@ models/
 
 # Explicitly include all files in the data/examples directory and its subdirectories
 !data/examples/*
-
->>>>>>> 73ba404 (excluding model files)
 
 # Logs and temp files
 *.log
