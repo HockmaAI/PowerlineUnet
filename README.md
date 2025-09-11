@@ -8,7 +8,7 @@ A U-Net model for Power Line image segmentation, generating precise masks for co
 - Fine trained model is supplied (hosted on huggingface)
 - Dependencies are specified
 
-This project addresses the first step in powerline inspections
+This project addresses a critical automation step in powerline inspections
 
 > Output masks define the power line pixels,
 > serving as the crucial first step in visible 
