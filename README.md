@@ -12,15 +12,15 @@ A U-Net model for Power Line image segmentation, generating precise masks for co
 
 This project addresses the first step in powerline inspections
 
-> Output masks define the power line pixels 
-> as the first step in visible fault identification 
-> of power line images from drone images. 
-> eventually all inspections will be undertaken
-> by drones. Automation of images collected to 
-> identify weakened conductors caused by 
-> broken strand
+> Output masks define the power line pixels,
+> serving as the crucial first step in visible 
+> fault identification of power line images captured by drones. 
+> Eventually, all inspections will be fully automated,
+> using this technology to identify weakened 
+> conductors caused by issues like
+> broken strands, 
 > corrosion
-> untwisting (bird-caging)
+> untwisting (bird-caging).
 
 
 This project is the result of several years of research and study
