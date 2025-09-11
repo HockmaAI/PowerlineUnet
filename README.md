@@ -1,7 +1,7 @@
 # Powerline Unet
 A U-Net model for Power Line image segmentation, generating precise masks for computer vision using drone-based inspections. Built for AI and CV enthusiasts.
 
-<img width="960" height="1496" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
+<img width="800" height="1000" alt="detection" src="https://github.com/user-attachments/assets/9050aa07-df18-4966-86ed-ad127d5d2f50" />
 
 ## Features
 
