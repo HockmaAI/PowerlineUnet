@@ -1,0 +1,40 @@
+[project]
+name = "powerline-unet"
+version = "0.2.0"
+description = "U-Net model for power line segmentation from drone imagery"
+authors = [{ name = "Mark Hocking", email = "hockma1985@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "albumentations>=1.4.0",
+    "opencv-python-headless>=4.8.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0,<2.0.0",
+    "matplotlib>=3.7.0",
+    "pyyaml>=6.0.0",
+    "tqdm>=4.65.0",
+    "segmentation-models-pytorch>=0.3.0",
+]
+
+[project.optional-dependencies]
+dev = ["black", "isort", "flake8", "pytest", "ruff"]
+train = ["wandb>=0.15.0", "tensorboard>=2.12.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["powerline_unet*"]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

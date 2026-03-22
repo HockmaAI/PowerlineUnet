@@ -1,0 +1,47 @@
+# PowerlineUnet Configuration
+project:
+  name: "PowerlineUnet"
+  version: "0.2.0"
+  description: "U-Net for power line segmentation"
+
+paths:
+  data_root: "data"
+  train_images: "data/train/train_imgs"
+  train_masks: "data/train/train_gt"
+  val_images: "data/val/val_imgs" 
+  val_masks: "data/val/val_gt"
+  output_dir: "outputs"
+  model_save_dir: "outputs/models"
+  inference_input: "data/inference/in"
+  inference_output: "data/inference/out"
+
+model:
+  name: "UNet"
+  in_channels: 3
+  out_channels: 1
+  encoder_channels: [64, 128, 256, 512]
+  use_attention: true
+  pretrained: false
+
+training:
+  batch_size: 8
+  num_epochs: 50
+  learning_rate: 0.001
+  weight_decay: 1e-5
+  loss:
+    bce_weight: 0.7
+    dice_weight: 0.3
+  early_stopping_patience: 10
+  save_best_only: true
+
+inference:
+  threshold: 0.5
+  batch_size: 4
+  resize_to: null  # Set to specific size if needed
+
+augmentation:
+  enabled: true
+  min_size: 256
+  max_size: 1024
+  p_flip: 0.5
+  p_rotate: 0.3
